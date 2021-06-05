@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --inspect ../models/atendimento.js"
+    "dev": "nodemon --inspect index.js"
   },
   "author": "Guilherme Alves",
   "license": "ISC",

@@ -4,7 +4,7 @@ module.exports = app => {
 
     app.get('/servicos/:id', (req, res) => {
         const id = parseInt(req.params.id)
-
+ 
         Servico.buscaPorId(id, res)
     })
 
