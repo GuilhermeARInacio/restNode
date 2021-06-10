@@ -1,7 +1,7 @@
 const moment = require('moment')
-const { query } = require('../infraestrutura/conexao')
+const { query } = require('../infraestrutura/database/conexao')
 
-const conexao = require('../infraestrutura/conexao')
+const conexao = require('../infraestrutura/database/conexao')
 
 class Servico {
     adiciona(servico, res) {
